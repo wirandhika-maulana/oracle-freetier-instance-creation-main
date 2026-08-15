@@ -3,4 +3,4 @@ user=ocid1.user.oc1..aaaaaaaas477uyiiufkzwwvzsdtjeqxcij32d2my5qxibmizc5rq22bjfn5
 fingerprint=25:cf:2a:b7:79:e4:01:c7:a4:4f:a1:fb:08:0b:ba:dd
 tenancy=ocid1.tenancy.oc1..aaaaaaaactbhg5pqj32hf3g77krtyxelsc4q2gj5c5cwooz47tlv6wf5loxq
 region=ap-batam-1
-key_file=./oci_api_private_key.pem
+key_file=/root/oracle-freetier-instance-creation-main/alfaqirwiran22@gmail.com-2026-08-15T16_05_23.980Z.pem
