@@ -481,6 +481,9 @@ def launch_instance():
                 "message": srv_err.message,
             }
             handle_errors("launch_instance", data, logging_step5)
+        except Exception as e:
+            logging_step5.warning("Network or unexpected error occurred: %s. Retrying in %s seconds...", str(e), WAIT_TIME)
+            time.sleep(WAIT_TIME)
 
 
 if __name__ == "__main__":
